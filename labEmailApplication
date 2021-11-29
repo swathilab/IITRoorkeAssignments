@@ -1,0 +1,13 @@
+import java.util.ArrayList;
+
+public class CreatingCredentials { 
+  public static void main(String[] args) { 
+    ArrayList<String> credentials = new ArrayList<String>();
+    System.out.println("Please enter the department from the following");
+    credentials.add("Technical");
+    credentials.add("Admin");
+    credentials.add("Human Resource");
+    credentials.add("Legal");
+    System.out.println(credentials);
+  } 
+}
